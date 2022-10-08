@@ -9,7 +9,7 @@ const Navbar = () => {
      <div className='flex grow items-center justify-start'>
       <Link href="/">
       <a>
-      <Image src={Logo} alt="/" />
+      <Image src={logo}/>
       </a>
       </Link>
      </div>
