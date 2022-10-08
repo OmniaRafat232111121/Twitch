@@ -1,15 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { Fragment,useState } from 'react';
+import React, { Fragment } from 'react';
 import Logo from '../public/assets/logo.png';
 import { Menu, Transition } from '@headlessui/react';
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { BsPerson, BsSearch, BsThreeDotsVertical } from 'react-icons/bs';
 function classNames(...classes){
   return classes.filter(Boolean).join(' ');
 }
 const Navbar = () => {
-  const [nav,setNav]=useState(' ')
   return (
     <div className='fixed h-14 w-full flex flex-nowrap items-center p-4 bg-[#0e0e10] mb-[2px] z-10 '>
      {/*left Side*/}
@@ -115,10 +113,6 @@ const Navbar = () => {
           </div>
       
       </div>
-      {/*Humbger Menu*/}
-      <div className='block md:hidden z-10 cursor-pointer'>
-      {nav ? <AiOutlineCLose size={25}/> : <AiOutlineMenu size={25} />}
-      </div>
       {/*MobilePhone*/}
       <div className='fixed top-0 left-0 w-full h-screen bg-[#0E0E10] flex justify-center items-center ease-in duration-300'>
     <ul className='text-center'>
@@ -126,14 +120,9 @@ const Navbar = () => {
     <Link href="/"> Home</Link>
     </li>
     <li className='p-4 text-3xl font-bold'>
-    <Link href="/#live"> Live Channels </Link>
+    <Link href="/"> Home</Link>
     </li>
-    <li className='p-4 text-3xl font-bold'>
-    <Link href="/top">Top Categories</Link>
-    </li>
-    <li className='p-4 text-3xl font-bold'>
-    <Link href="/accout">Account</Link>
-    </li>
+    
     </ul>
       </div>
     </div>

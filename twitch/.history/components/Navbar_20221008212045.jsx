@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { Fragment,useState } from 'react';
+import React, { Fragment } from 'react';
 import Logo from '../public/assets/logo.png';
 import { Menu, Transition } from '@headlessui/react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
