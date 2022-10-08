@@ -111,7 +111,7 @@ const Navbar = () => {
        </Link>
        <BsPerson size={30} />
      </div>
-      </div>
+       </div>
     </div>
   )
 }

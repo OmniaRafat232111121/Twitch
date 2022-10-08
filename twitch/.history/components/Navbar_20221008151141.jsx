@@ -96,22 +96,10 @@ const Navbar = () => {
       className='bg-transparent border-none text-white focus:outline-none'
       placeholder='Search' />
       </div>
-      <div>
-      <BsSearch  />
-    </div>
+      
       </div>
       </div>
        {/*Right Side*/}
-       <div className="hidden md-flex grow items-center justify-end">
-       <div className='flex items-center'>
-       <Link href='/account'>
-         <button className='px-4 py-[6px] rounded-lg font-bold bg-[#9147ff] mr-2'>
-           Account
-         </button>
-       </Link>
-       <BsPerson size={30} />
-     </div>
-      </div>
     </div>
   )
 }

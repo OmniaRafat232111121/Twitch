@@ -97,7 +97,7 @@ const Navbar = () => {
       placeholder='Search' />
       </div>
       <div>
-      <BsSearch  />
+      <BsSearch  size={30}/>
     </div>
       </div>
       </div>
@@ -111,7 +111,7 @@ const Navbar = () => {
        </Link>
        <BsPerson size={30} />
      </div>
-      </div>
+       </div>
     </div>
   )
 }
