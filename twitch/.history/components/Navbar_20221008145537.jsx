@@ -2,10 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { Fragment } from 'react';
 import Logo from '../public/assets/logo.png';
-import { Menu, Transition } from '@headlessui/react';
-import { BsPerson, BsSearch, BsThreeDotsVertical } from 'react-icons/bs';
 function classNames(...classes){
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(' ')
 }
 const Navbar = () => {
   return (
