@@ -1,9 +1,9 @@
-import Image from 'next/image'
 import React from 'react'
 
-const CategoriesItem = ({img,title,viewers,tag1,tag2}) => {
+const CategoriesItem = ({img,tite,viewes,tag1,tag2}) => {
   return (
     <div className='p-2' >
+    <Ima
     <Image src={img} width='261' height='350' alt='/' />
     <div>
     <p className='font-bold'>{title}</p>
