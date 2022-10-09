@@ -4,7 +4,7 @@ import React from 'react';
 const CategoriesItem = ({ img, title, viewers, tag1, tag2 }) => {
   return (
     <div className='p-2'>
-      <Image src={img} width='261' height='350' alt='/'  />
+      <Image src={img} width='261' height='350' alt='/' className='hover:bg-green-600' />
       <div>
         <p className='font-bold'>{title}</p>
         <p className='text-sm text-gray-500 py-[2px]'>{viewers}</p>
@@ -15,11 +15,11 @@ const CategoriesItem = ({ img, title, viewers, tag1, tag2 }) => {
             </p>
           </div>
           <div>
-          {tag2 ? (
-            <p className='text-sm bg-gray-700 rounded-full flex p-[2px] px-3'>
-              {tag2}
-            </p>
-          ) : null}
+            {tag2 ? (
+              <p className='text-sm bg-gray-700 rounded-full flex p-[2px] px-3'>
+                {tag2}
+              </p>
+            ) : null}
           </div>
         </div>
       </div>

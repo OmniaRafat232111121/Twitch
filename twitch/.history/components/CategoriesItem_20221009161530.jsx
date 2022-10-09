@@ -15,11 +15,11 @@ const CategoriesItem = ({ img, title, viewers, tag1, tag2 }) => {
             </p>
           </div>
           <div>
-          {tag2 ? (
-            <p className='text-sm bg-gray-700 rounded-full flex p-[2px] px-3'>
-              {tag2}
-            </p>
-          ) : null}
+            {tag2 ? (
+              <p className='text-sm bg-gray-700 rounded-full flex p-[2px] px-3'>
+                {tag2}
+              </p>
+            ) : null}
           </div>
         </div>
       </div>
