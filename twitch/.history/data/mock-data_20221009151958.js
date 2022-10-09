@@ -95,4 +95,5 @@ export const rec_channels = [
       game_name: 'Transcof',
       rank: 80,
     },
-];
+
+  ];

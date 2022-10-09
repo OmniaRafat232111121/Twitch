@@ -94,5 +94,6 @@ export const rec_channels = [
       username: 'talwood2',
       game_name: 'Transcof',
       rank: 80,
-    },
-];
+    }
+  
+  ];
